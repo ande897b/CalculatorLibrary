@@ -26,7 +26,12 @@ namespace CalculatorLibrary
 
         public static double Sum(double[] numbers)
         {
-            throw new NotImplementedException();
+            double Sum = 0;
+            for (int i = 0; i < numbers.Length; i = i + 1)
+            {
+                Sum = Sum + numbers[i];
+            }
+            return Sum;
         }
 
         public static double Minimum(double[] numbers)
