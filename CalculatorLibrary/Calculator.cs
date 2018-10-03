@@ -36,7 +36,13 @@ namespace CalculatorLibrary
 
         public static double Minimum(double[] numbers)
         {
-            throw new NotImplementedException();
+            double Min = numbers[0];
+            for (int i = 0; i < numbers.Length; i = i + 1)
+            {
+                if (Min > numbers[i])
+                { Min = numbers[i]; }
+            }
+            return Min;
         }
 
         public static double Maximum(double[] numbers)
