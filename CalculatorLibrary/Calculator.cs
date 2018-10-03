@@ -64,5 +64,10 @@ namespace CalculatorLibrary
             double avg = Sum(numbers) / numbers.Length;
             return avg;
         }
+
+        public static double Squared(double v)
+        {
+            return v * v;
+        }
     }
 }

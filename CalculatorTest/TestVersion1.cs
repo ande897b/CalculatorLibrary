@@ -78,6 +78,12 @@ namespace CalculatorTest
             numbers[2] = -65.3;
             Assert.AreEqual(195.84, Calculator.Average(numbers));
         }
+        [TestMethod]
+        public void Squared()
+        {
+            Assert.AreEqual(25, Calculator.Squared(5), delta);
+            Assert.AreEqual(1764, Calculator.Squared(42), delta);
+        }
 
     }
 }
