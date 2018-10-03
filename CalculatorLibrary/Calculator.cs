@@ -11,7 +11,7 @@ namespace CalculatorLibrary
 
         public static double Subtract(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 - v2;
         }
 
         public static double Multiply(double v1, double v2)
