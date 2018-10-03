@@ -59,8 +59,10 @@ namespace CalculatorLibrary
         }
 
         public static double Average(double[] numbers)
-        {
-            throw new NotImplementedException();
+           
+        {           
+            double avg = Sum(numbers) / numbers.Length;
+            return avg;
         }
     }
 }
