@@ -21,7 +21,7 @@ namespace CalculatorLibrary
 
         public static double Divide(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 / v2;
         }
 
         public static double Sum(double[] numbers)
