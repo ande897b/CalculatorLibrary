@@ -47,7 +47,15 @@ namespace CalculatorLibrary
 
         public static double Maximum(double[] numbers)
         {
-            throw new NotImplementedException();
+            double max = numbers[0];
+            for (int i = 0; i < numbers.Length; i = i + 1)
+            {
+                if (max < numbers[i])
+                {
+                    max = numbers[i];
+                }
+            }
+            return max;
         }
 
         public static double Average(double[] numbers)
