@@ -69,5 +69,15 @@ namespace CalculatorLibrary
         {
             return v * v;
         }
+
+        public static double XiY(double v1, double v2)
+        {
+            double xiy=1;
+            for (int i = 0; i < v2; i++)
+            {
+                xiy = xiy * v1;
+            }
+            return xiy;
+        }
     }
 }

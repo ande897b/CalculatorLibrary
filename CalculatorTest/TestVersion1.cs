@@ -84,6 +84,12 @@ namespace CalculatorTest
             Assert.AreEqual(25, Calculator.Squared(5), delta);
             Assert.AreEqual(1764, Calculator.Squared(42), delta);
         }
+        [TestMethod]
+        public void XiY()
+        {
+            Assert.AreEqual(1024, Calculator.XiY(4,5), delta);
+            Assert.AreEqual(390625, Calculator.XiY(5,8), delta);
+        }
 
     }
 }
